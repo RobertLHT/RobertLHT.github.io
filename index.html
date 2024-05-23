@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Robert Liu's Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="./index.js"></script>
+  </head>
+
+  <body>
+    <!-- 这是一个导航栏 -->
+    <!-- <nav
+      class="navbar navbar-expand-md navbar-dark bg-black fixed-top"
+      class="navbar navbar-expand-md navbar-dark bg-black fixed-top"
+      style="height: 100px"
+    > -->
+    <nav
+      class="navbar navbar-expand-md navbar-dark bg-black"
+      style="height: 100px"
+    >
+      <!-- <nav class="navbar navbar-expand-md navbar-dark bg-black"> -->
+      <div class="container-fluid">
+        <img
+          id="logo"
+          class="navbar-brand"
+          src="images/Logo.webp"
+          href="#"
+          alt="Logo"
+        />
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >About Me</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#education">Education</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active" href="#publications">Publications</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#work-experience"
+                >Work Experience</a
+              >
+            </li>
+            <li class="nav-item me-auto">
+              <a class="nav-link active" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item me-auto">
+              <a class="nav-link active" href="#skills">Skills</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Contact Me</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main class="container">
+      <h1 style="text-align: center; padding-top: 2rem">
+        Robert (Haotian) Liu
+      </h1>
+
+      <div class="container" id="about-me">
+        <div class="row">
+          <div class="col">
+            <img id="my-photo" src="images/me.jpg" href="#" alt="my photo" />
+          </div>
+          <div class="col">
+            <p id="introduction">
+              Hello, I'm Robert (Haotian) Liu, a data engineer and machine
+              learning researcher with a strong passion for the latest in AI
+              technologies. I earned a Bachelor of Computer Science with Honors
+              from Dalhousie University and a Master of Information from the
+              University of Toronto. My recent work includes using Large
+              Language Models based web solutions and Web 3.0 engineering.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div id="education">
+        <h2>Education</h2>
+        <div id="uoft">
+          <h4><strong>University of Toronto</strong></h4>
+          <p>Master of Information</p>
+          <p>
+            Concentrations on Human-Centred Data Science & Information System
+            Design
+          </p>
+        </div>
+        <div id="dalhousie">
+          <h4><strong>Dalhousie University</strong></h4>
+          <p>Bachelor of Computer Science with Honor Degree</p>
+          <p>
+            Certificate in Artificial Intelligence<br />
+            Dean List for two terms and Sexton Scholar for six terms
+          </p>
+        </div>
+      </div>
+
+      <div id="publications">
+        <h2>Publications</h2>
+        <p>
+          <i
+            ><a href="https://ieeexplore.ieee.org/document/10074304"
+              >On the Placement of Edge Servers in Mobile Edge Computing</a
+            ></i
+          >
+        </p>
+      </div>
+
+      <div id="work-experience">
+        <h2>Work Experience</h2>
+        <section>
+          <p>
+            <strong><i>Research Assistant</i></strong> | Dalhousie University
+          </p>
+          <p>Toronto, Ontario | 05/2022 - 09/2023 (Remote, part-time)</p>
+          <ul>
+            <li>Modelling customized LightGBM models and tuning parameters.</li>
+            <li>
+              Researching the latest statistics concepts and implementing them
+              with the Machine learning models.
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <p>
+            <strong><i>Data Curator</i></strong> | Urban Data Centre, School of
+            Cities, University of Toronto
+          </p>
+          <p>Toronto, Ontario | 02/2023 - 05/2023 (Internship)</p>
+          <ul>
+            <li>
+              Cataloging metadata across the urban domain and developing
+              maturity models for effective and efficient metadata collection.
+            </li>
+            <li>
+              Researching Data Quality Vocabulary and creating quality data
+              analysis tasks for metadata.
+            </li>
+          </ul>
+        </section>
+        <section>
+          <p>
+            <strong><i>Data Analyst</i></strong> | Dalla Lana School of Public
+            Health, University of Toronto
+          </p>
+          <p>Toronto, Ontario | 10/2022 - 02/2023 (Internship)</p>
+          <ul>
+            <li>
+              Researching on improving confidence in the vaccine through social
+              media.
+            </li>
+            <li>
+              Collecting text metadata from multiple social media and
+              programming customized topic modelling methods for quantitative
+              and qualitative analysis.
+            </li>
+          </ul>
+        </section>
+      </div>
+
+      <div id="projects">
+        <h2>Projects</h2>
+        <section>
+          <p>
+            <strong>Building Data Pipeline on Azure Cloud </strong>
+          </p>
+          <ul>
+            <li>
+              Using Microsoft SQL server management studio, Azure Data Factory,
+              Azure Data Lake, Azure Databricks, and Azure Synapses Analytics
+              for data ingestion and transformation.
+            </li>
+            <li>
+              Using IAM for role assignment and Key vaults to ensure the
+              authentication and privacy.
+            </li>
+            <li>Using Power BI for data analysis.</li>
+          </ul>
+        </section>
+
+        <section>
+          <p><strong>Developing a Personal Web Portfolio</strong></p>
+          <ul>
+            <li>Build a static web page using HTML, CSS, and JavaScript.</li>
+            <li>Design UI with Bootstrap 5 and Tailwind CSS.</li>
+            <li>Configure CI/CD using GitHub Action to deploy on the Cloud.</li>
+          </ul>
+        </section>
+
+        <section>
+          <p><strong>Researching in the LLM Technologies</strong></p>
+          <ul>
+            <li>
+              Research the Large Language Model, Stable Diffusion, and Attention
+              mechanisms.
+            </li>
+            <li>
+              Building a Seq2Seq model step by step using Pytorch for language
+              translation, keep improving it using the attention mechanism.
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <p><strong>Functional CRM system development</strong></p>
+          <ul>
+            <li>
+              The system is developed with Python Django, and MySQL for the back
+              end and uses HTML, CSS, and Bootstrap 5 for the front-end design.
+            </li>
+            <li>
+              Designing over 5 databases for customers, and client companies and
+              optimizing functions and triggers for efficient data Input/Output
+              and integration.
+            </li>
+            <li>
+              Implementing efficient ETL pipeline using Azure cloud services.
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <p>
+            <strong
+              >Social Concerns Classification during the COVID-19 by Topic
+              Modeling</strong
+            >
+          </p>
+          <ul>
+            <li>
+              Apply LDA, NMF, BTM, and CorEx on the tweets data during the
+              COVID-19 in the early, middle, and late stages.
+            </li>
+            <li>
+              Use perplexity and coherence scores to select optimal models and
+              apply qualitative analysis to conclude social concerns at each
+              period during COVID-19.
+            </li>
+          </ul>
+        </section>
+        <section>
+          <p><strong>Developing an Online Cooking Blog</strong></p>
+          <ul>
+            <li>
+              Developing a functional food blog which allows people to share
+              their cooking, recipes, and comments using ASP.NET, C#, HTML, and
+              Databases.
+            </li>
+            <li>
+              Design over 5 databases using SQLite with Agile development and
+              use customized functions and triggers for efficient data
+              Input/Output and integration.
+            </li>
+            <li>
+              Implementing an efficient ETL pipeline using cloud services and
+              analyzing users’ dietary preferences according to their posts
+              using Azure services.
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <p><strong>Classification of Music Genre by Lyrics</strong></p>
+          <ul>
+            <li>
+              Preprocessing English text data, which includes cleaning,
+              tokenizing, and various embedding methods. Visualize text data
+              with WorldCloud.
+            </li>
+            <li>
+              Use Naïve Bayes, Decision Tree, Random Forest, and GRU to predict
+              Music type based on Lyrics. The best model reaches 66.06% accuracy
+              and an f1 score of 0.68.
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <p>
+            <strong
+              >Image preprocessing of Market-1501 Dataset for human
+              recognition</strong
+            >
+          </p>
+          <ul>
+            <li>
+              Develop an ETL data pipeline with Python and manually implement a
+              convolution layer for feature extraction and customized CNN for
+              human recognition.
+            </li>
+            <li>
+              Use OpenCV to preprocess images such as scaling, brightness
+              changing, and contour detection.
+            </li>
+          </ul>
+        </section>
+      </div>
+      <div id="skills">
+        <h2>Skills</h2>
+        <table>
+          <!-- First row -->
+          <tr class="bg1">
+            <td>C#</td>
+            <td>ASP.NET</td>
+            <td>MVC</td>
+            <td>Database</td>
+            <td>SQLite</td>
+            <td>MongoDB</td>
+            <td>HTML</td>
+            <td>CSS</td>
+          </tr>
+          <!-- Second row -->
+          <tr class="bg2">
+            <td>JavaScript</td>
+            <td>Bootstrap 3</td>
+            <td>Bootstrap 5</td>
+            <td>Tailwind CSS</td>
+            <td>React</td>
+            <td>Node.js</td>
+            <td>Docker</td>
+            <td>GitHub Action</td>
+          </tr>
+          <!-- Third row -->
+          <tr class="bg1">
+            <td>CI/CD Automation</td>
+            <td>MS Visual Studio</td>
+            <td>MS Visual Studio Code</td>
+            <td>JetBrains Rider</td>
+            <td>JetBrains WebStorm</td>
+            <td>Lucidchart</td>
+            <td>Python</td>
+            <td>Django</td>
+          </tr>
+          <!-- Fourth row -->
+          <tr class="bg2">
+            <td>Java</td>
+            <td>R</td>
+            <td>NumPy</td>
+            <td>Pandas</td>
+            <td>Seaborn</td>
+            <td>SciKit-Learn</td>
+            <td>Matplotlib</td>
+            <td>TensorFlow</td>
+          </tr>
+          <!-- Fifth row -->
+          <tr class="bg1">
+            <td>SciPy</td>
+            <td>PyTorch</td>
+            <td>Linux</td>
+            <td>Azure</td>
+            <td>AWS</td>
+            <td>GCP</td>
+            <td>ChatGPT</td>
+            <td>Tableau</td>
+          </tr>
+          <!-- Sixth row -->
+          <tr class="bg2">
+            <td>PowerBI</td>
+            <td>Stable Diffusion methods</td>
+            <td colspan="6"></td>
+            <!-- Empty cells filled by colspan -->
+          </tr>
+        </table>
+      </div>
+
+      <h2>Contact Me</h2>
+      <div class="contact">
+        <form
+          class="contact-left"
+          action="https://api.web3forms.com/submit"
+          method="POST"
+          onsubmit="checkSubmissionLimit()"
+        >
+          <!-- <form class="contact-left" action=""> -->
+          <!-- Replace with your Access Key -->
+          <input id="access_key" type="hidden" name="access_key" value="" />
+          <input type="hidden" name="redirect" value="./index.html" />
+          <!-- Optional: But Recommended: To Prevent SPAM Submission.
+          Make sure its hidden by default -->
+          <input
+            type="checkbox"
+            name="botcheck"
+            class="hidden"
+            style="display: none"
+          />
+
+          <input
+            type="text"
+            name="name"
+            placeholder="Your Name"
+            class="contact-inputs"
+            required
+          />
+
+          <input
+            type="text"
+            name="email"
+            placeholder="Your Email"
+            class="contact-inputs"
+            required
+          />
+
+          <textarea
+            name="message"
+            placeholder="Your Message"
+            class="contact-inputs"
+            required
+          ></textarea>
+
+          <!-- 1. Add yh-captcha -->
+          <div class="h-captcha" data-captcha="true"></div>
+          <button
+            type="submit"
+            id="submit-btn"
+            style="background-color: #e0e0e0"
+          >
+            Submit
+          </button>
+        </form>
+        <!-- Required only if you are using hCaptcha or Advanced File Upload. -->
+
+        <script
+          src="https://web3forms.com/client/script.js"
+          async
+          defer
+        ></script>
+      </div>
+    </main>
+  </body>
+</html>
